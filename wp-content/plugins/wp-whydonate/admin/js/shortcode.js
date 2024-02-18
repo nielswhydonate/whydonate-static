@@ -1,5 +1,8 @@
 var whydonateSlugs={};
 var lang = '';
+const wdplugin_donation_worker_url = 'https://donation.whydonate.workers.dev';
+const wdplugin_account_worker_url = 'https://account.whydonate.workers.dev'
+
 function showDonateWindow(id, tip_enabled, colorCode, languageCode)
 {
     // set body style overflow to hide.
@@ -1116,8 +1119,8 @@ async function makeDonation(data, successUrl, failureUrl, donorInfo)
     console.log('In make Donation');
     // const proxyurl='https://intense-temple-29395.herokuapp.com/';
     // const donationApi='https://whydonate-development.appspot.com/api/v1/donation/order/?client=whydonate-staging';
-    // const donationApi='https://whydonate-production-api.appspot.com/api/v1/donation/order/?client=whydonte-production';
-    const donationApi='https://donation.whydonate.workers.dev/donation/order/';
+    // const donationApi`='https://whydonate-production-api.appspot.com/api/v1/d`onation/order/?client=whydonte-production';
+    const donationApi=`${wdplugin_donation_worker_url}/donation/order/`;
  
     // const donationApi='https://donation-staging.whydonate.workers.dev/donation/order/';
     const url=donationApi;
@@ -1160,7 +1163,7 @@ async function makeDonation(data, successUrl, failureUrl, donorInfo)
 async function getDonorStatus(orderId,success_url,fail_url)
 {
     // var api = `https://donation-staging.whydonate.workers.dev/donation/order/status/?order_id=${orderId}`;
-    var api = `https://donation.whydonate.workers.dev/donation/order/status/?order_id=${orderId}`;
+    var api = `${wdplugin_donation_worker_url}/donation/order/status/?order_id=${orderId}`;
     var url = api;
     await fetch(
         url,{
@@ -1194,7 +1197,7 @@ async function updateDonorInformation(donorInfo, urlToRedirect,donorId,orderId)
     // var api=
     //   'https://whydonate-production-api.appspot.com/api/v1/donation/donor/update/?client=whydonate-production';
     var api=
-    'https://donation.whydonate.workers.dev/donation/donor/update/';
+    `${wdplugin_donation_worker_url}/donation/donor/update/`;
     // var api=
     //   'https://donation-staging.whydonate.workers.dev/donation/donor/update/';
 
@@ -1244,7 +1247,6 @@ async function updateDonorInformation(donorInfo, urlToRedirect,donorId,orderId)
 
 jQuery(document).ready(
     function () {
-  
         // Add Tipbox
         var tipBoxArray=document.getElementsByClassName('tip-box');
         if (tipBoxArray.length>0) {
@@ -1279,7 +1281,7 @@ jQuery(document).ready(
             window.history.replaceState({}, document.title, actualUrlArr[0]);
             jQuery.ajax(
                 { 
-                    url: `https://donation.whydonate.workers.dev/donation/order/status/?order_id=${orderId}`,
+                    url: `${wdplugin_donation_worker_url}/donation/order/status/?order_id=${orderId}`,
                     type: 'get',
                     data: {
                         action: 'check_order_status',
@@ -1330,8 +1332,10 @@ async function checkInstallations(payload)
     // Testing Api
     let proxyurl='https://intense-temple-29395.herokuapp.com/';
     //  let stagingApi='https://whydonate-development.appspot.com/api/v1/account/installations/?client=whydonate_staging';
-    let productionApi='https://whydonate-production-api.appspot.com/api/v1/account/installations/?client=whydonate_production';
-    let apiUrl=proxyurl+productionApi;
+    // let productionApi="https://whydonate-production-api.appspot.com/api/v1/account/installations/?client=whydonate_production";
+    // let apiUrl=proxyurl+productionApi;
+    
+    let apiUrl=`${wdplugin_account_worker_url}/account/check/installations`;
 
     const settings={
         method: 'post',
