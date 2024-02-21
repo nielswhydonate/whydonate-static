@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/video-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-video/1.1 http://www.google.com/schemas/sitemap-video/1.1/sitemap-video.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+	<url>
+		<loc>/blog/facebook-donaties-non-profits/</loc>
+		<video:video>
+			<video:title><![CDATA[Facebook Donaties voor Nonprofits - 10 Tips | Whydonate]]></video:title>
+			<video:description><![CDATA[Facebook Donaties voor Nonprofit organisaties. Hoe werkt het? En hoe maar je er optimaal gebruik van? Bekijk de 10 meest waardevolle Tips om alles uit jouw Facebook Goede doelen pagina te halen. Zo zamel je geld in via Facebook!]]></video:description>
+			<video:player_loc>https://www.youtube.com/embed/pBr</video:player_loc>
+			<video:thumbnail_loc>https://whydonate.dreamhosters.com/wp-content/uploads/2023/05/Facebook-donaties-voor-Nonprofits.jpg</video:thumbnail_loc>
+			<video:family_friendly>yes</video:family_friendly>
+			<video:uploader info="/author/nielswhydonate-nl/">Niels Corver</video:uploader>
+		</video:video>
+	</url>
+	<url>
+		<loc>/blog/donatie-site/</loc>
+		<video:video>
+			<video:title><![CDATA[Donatie Site - Hoe Maak je een Goede Website voor een Goed Doel?]]></video:title>
+			<video:publication_date>2014-03-05T00:00:00+00:00</video:publication_date>
+			<video:description><![CDATA[Weten hoe Maak je een Geweldige Website voor een Goed Doel? 6 belangrijke Tips om de Beste Donatie Website voor jouw Goede doel te maken.]]></video:description>
+			<video:player_loc>https://www.youtube.com/embed/RBQ-IoHfimQ?feature=oembed</video:player_loc>
+			<video:thumbnail_loc>https://whydonate.dreamhosters.com/wp-content/uploads/2023/04/58.jpg</video:thumbnail_loc>
+			<video:duration>94</video:duration>
+			<video:family_friendly>yes</video:family_friendly>
+			<video:uploader info="/author/nielswhydonate-nl/">Niels Corver</video:uploader>
+		</video:video>
+		<video:video>
+			<video:title><![CDATA[Donatie Site - Hoe Maak je een Goede Website voor een Goed Doel?]]></video:title>
+			<video:description><![CDATA[Weten hoe Maak je een Geweldige Website voor een Goed Doel? 6 belangrijke Tips om de Beste Donatie Website voor jouw Goede doel te maken.]]></video:description>
+			<video:player_loc>https://www.youtube.com/embed/RBQ-IoHfimQ</video:player_loc>
+			<video:thumbnail_loc>https://whydonate.dreamhosters.com/wp-content/uploads/2023/04/58.jpg</video:thumbnail_loc>
+			<video:family_friendly>yes</video:family_friendly>
+			<video:uploader info="/author/nielswhydonate-nl/">Niels Corver</video:uploader>
+		</video:video>
+		<video:video>
+			<video:title><![CDATA[Donatie Site - Hoe Maak je een Goede Website voor een Goed Doel?]]></video:title>
+			<video:description><![CDATA[Weten hoe Maak je een Geweldige Website voor een Goed Doel? 6 belangrijke Tips om de Beste Donatie Website voor jouw Goede doel te maken.]]></video:description>
+			<video:player_loc>https://www.youtube.com/embed/szpN6nn2sMo</video:player_loc>
+			<video:thumbnail_loc>https://whydonate.dreamhosters.com/wp-content/uploads/2023/04/58.jpg</video:thumbnail_loc>
+			<video:family_friendly>yes</video:family_friendly>
+			<video:uploader info="/author/nielswhydonate-nl/">Niels Corver</video:uploader>
+		</video:video>
+		<video:video>
+			<video:title><![CDATA[Donatie Site - Hoe Maak je een Goede Website voor een Goed Doel?]]></video:title>
+			<video:publication_date>2014-03-08T23:09:36+00:00</video:publication_date>
+			<video:description><![CDATA[Weten hoe Maak je een Geweldige Website voor een Goed Doel? 6 belangrijke Tips om de Beste Donatie Website voor jouw Goede doel te maken.]]></video:description>
+			<video:player_loc>https://player.vimeo.com/video/88553651</video:player_loc>
+			<video:thumbnail_loc>https://whydonate.dreamhosters.com/wp-content/uploads/2023/04/58.jpg</video:thumbnail_loc>
+			<video:duration>155</video:duration>
+			<video:family_friendly>yes</video:family_friendly>
+			<video:uploader info="/author/nielswhydonate-nl/">Niels Corver</video:uploader>
+		</video:video>
+		<video:video>
+			<video:title><![CDATA[Donatie Site - Hoe Maak je een Goede Website voor een Goed Doel?]]></video:title>
+			<video:description><![CDATA[Weten hoe Maak je een Geweldige Website voor een Goed Doel? 6 belangrijke Tips om de Beste Donatie Website voor jouw Goede doel te maken.]]></video:description>
+			<video:player_loc>https://www.youtube.com/embed/A16UWWGXuKE</video:player_loc>
+			<video:thumbnail_loc>https://whydonate.dreamhosters.com/wp-content/uploads/2023/04/58.jpg</video:thumbnail_loc>
+			<video:family_friendly>yes</video:family_friendly>
+			<video:uploader info="/author/nielswhydonate-nl/">Niels Corver</video:uploader>
+		</video:video>
+	</url>
+	<url>
+		<loc>/blog/giving-tuesday/</loc>
+		<video:video>
+			<video:title><![CDATA[Giving Tuesday Fondsenwerving Ideeën voor 2023 - WhyDonate]]></video:title>
+			<video:description><![CDATA[Giving Tuesday Fondsenwerving Ideeën voor 2023 - Een #GivingTuesday Handboek om Donaties in te Zamelen voor een Goede Doel.]]></video:description>
+			<video:player_loc>https://www.youtube.com/embed/p&gt;&lt;spa</video:player_loc>
+			<video:thumbnail_loc>https://whydonate.dreamhosters.com/wp-content/uploads/2023/05/Giving-Tuesday.jpg</video:thumbnail_loc>
+			<video:family_friendly>yes</video:family_friendly>
+			<video:uploader info="/author/nielswhydonate-nl/">Niels Corver</video:uploader>
+		</video:video>
+	</url>
+</urlset>
+<!-- XML Sitemap generated by Rank Math SEO Plugin (c) Rank Math - rankmath.com -->
